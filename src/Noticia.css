@@ -1,3 +1,7 @@
-.noticia__titulo {
+.noticia__titulo, .componente__titulo{
     color: orange;
+}
+
+.noticia__prop, .componente__prop {
+    color: green;
 }

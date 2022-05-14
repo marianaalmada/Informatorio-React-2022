@@ -2,6 +2,7 @@
 import './App.css';
 import './Noticia.css';
 import Noticia from './components/Noticia';
+import ComponenteClase from './components/ComponenteClase';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           Learn React
         </a>
   </header>*/}
-      <Noticia></Noticia>
+      <Noticia prop="Esta es la propiedad del componente noticia"></Noticia>
+      <ComponenteClase prop="Propiedad del ComponenteClase"></ComponenteClase>
     </div>
   );
 }
