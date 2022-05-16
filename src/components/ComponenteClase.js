@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 class ComponenteClase extends Component {
 
+    state = {
+        
+    }
+
     render() {
         const { prop } = this.props;
         return (
@@ -14,3 +18,7 @@ class ComponenteClase extends Component {
 }
 
 export default ComponenteClase
+
+/*Estados: 
+* Para guardar info en el estado se usa setState permite cambiar cualquier atributo del estado del componente 
+* MEdiante un constructor se puede pasar el estado incial */
