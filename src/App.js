@@ -4,6 +4,7 @@ import './Noticia.css';
 import Noticia from './components/Noticia';
 import ComponenteClase from './components/ComponenteClase';
 import Counter from './components/Counter';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -22,9 +23,7 @@ function App() {
           Learn React
         </a>
   </header>*/}
-      <Noticia prop="Esta es la propiedad del componente noticia"></Noticia>
-      <ComponenteClase prop="Propiedad del ComponenteClase"></ComponenteClase>
-      <Counter></Counter>
+      <Home />
     </div>
   );
 }

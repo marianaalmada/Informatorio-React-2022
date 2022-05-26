@@ -5,3 +5,11 @@
 .noticia__prop, .componente__prop {
     color: green;
 }
+
+.placeholder {
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
