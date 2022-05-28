@@ -1,4 +1,6 @@
 .card__container {
     display: flex;
     padding: 30px;
+    gap: 15px;
+    margin-top: 70px;
 }
